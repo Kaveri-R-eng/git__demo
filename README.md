@@ -32,11 +32,4 @@ def generate_password(length=12, include_uppercase=True, include_lowercase=True,
 
   password = ''.join(random.choice(characters) for _ in range(length))
   return password
-
-
-For enhanced security, consider using the secrets module instead of random.
-Implement password strength checks based on complexity requirements.
-Provide options for password storage and retrieval (e.g., using a password manager).
-Add features like password history and expiration.
-By incorporating these sug
   
