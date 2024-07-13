@@ -1,5 +1,5 @@
 # git__demo
-learning Git by apna collage and trying it to implement here
+# learning Git by apna collage and trying it to implement here
 import random
 import string
 
